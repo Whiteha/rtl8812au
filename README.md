@@ -13,4 +13,5 @@ sudo insmod 8812au.ko
 How to remove:
 
 sudo modprobe -r 8812au
+
 sudo make clean
