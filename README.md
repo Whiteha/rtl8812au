@@ -6,9 +6,9 @@ How to install:
 
 make
 
-sudo insmod 8812au.ko
-
 sudo make install
+
+sudo insmod 8812au.ko
 
 How to remove:
 
