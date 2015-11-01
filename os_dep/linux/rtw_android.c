@@ -38,6 +38,8 @@
 #include <linux/irq.h>
 #endif
 
+#define strnicmp strncasecmp
+
 extern void macstr2num(u8 *dst, u8 *src);
 
 const char *android_wifi_cmd_str[ANDROID_WIFI_CMD_MAX] = {
